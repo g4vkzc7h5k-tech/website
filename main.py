@@ -21,7 +21,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 BASE_DIR = os.path.dirname(__file__)
 COMMANDS_PATH = os.path.join(BASE_DIR, "data", "commands.json")
-BOT_STATUS_PATH = os.path.join(BASE_DIR, "..", "..", "data", "status.json")
+BOT_STATUS_PATH = os.path.join(BASE_DIR, "data", "status.json")
 
 app = FastAPI(title="Blade API")
 
